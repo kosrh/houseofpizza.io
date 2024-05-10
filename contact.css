@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fonf2.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    font-size: 24px; 
+    font-weight: normal; 
+}
+
+.navbar {
+    text-align: center; 
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0; 
+}
+
+.menu ul li a {
+    color: #d1c2c2; 
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+.menu ul li a:hover {
+    color: #007bff; 
+}
+
+
+section {
+    background-color: rgba(255, 255, 255, 0.171); 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3d4146;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.11); 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social ul li a img {
+    width: 30px;
+    height: 30px;
+}
